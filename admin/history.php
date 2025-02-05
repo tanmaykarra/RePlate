@@ -51,7 +51,7 @@ if($_SESSION['name']==''){
                 </a></li>
                 <li><a href="#">
                     <i class="uil uil-user"></i>
-                    <span class="link-name">Profile</span>
+                    <span class="link-name">History</span>
                 </a></li>
                 <!-- <li><a href="#">
                     <i class="uil uil-share"></i>
@@ -84,7 +84,7 @@ if($_SESSION['name']==''){
         <div class="top">
             <i class="uil uil-bars sidebar-toggle"></i>
             <!-- <p>Food Donate</p> -->
-            <p  class ="logo" >Your <b style="color: #06C167; ">History</b></p>
+            <p  class ="logo" ><b style="color: #06C167; ">History</b></p>
              <p class="user"></p>
             <!-- <div class="search-box">
                 <i class="uil uil-search"></i>
@@ -122,7 +122,7 @@ if($_SESSION['name']==''){
 
           // Define the SQL query to fetch unassigned orders
           $id=$_SESSION['Aid'];
-          $sql = "SELECT * FROM food_donations WHERE assigned_to =$id";
+          $sql = "SELECT * FROM food_donations ORDER BY date DESC";
           
           // Execute the query
           $result=mysqli_query($connection, $sql);
