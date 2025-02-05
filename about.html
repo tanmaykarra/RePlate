@@ -5,16 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="home.css">\
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-        <div class="logo">Food <b style="color: #06C167;">Donate</b></div>
-        <div class="hamburger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </div>
+      <div class="logo">
+        <img src="img\replate_logo.png" alt="RePlate Logo" style="height: 40px; vertical-align: middle; margin-right: 8px;">
+        <b style="color: #06C167;">RePlate</b>
+    </div>
         <nav class="nav-bar">
             <ul>
                 <li><a href="home.html" >Home</a></li>
@@ -93,7 +92,7 @@
         
     
     </section> -->
-    <p class="title">"Welcome to <u> Food Donate</u> "</p>
+    <p class="title">"Welcome to <u style="color: #06C167;"> RePlate</u> "</p>
     <br>
     <br>
     <br>
@@ -111,12 +110,100 @@
       
     
       <br>
-      
+      <!-- 🔄 How It Works Section -->
+<div class="section">
+  <h2 class="heading">How It Works</h2><br>
+  <div class="steps">
+      <div class="step">
+          
+          <h3>Step 1</h3>
+          <p>Donors list surplus food on the platform.</p>
+      </div>
+      <div class="step">
+          
+          <h3>Step 2</h3>
+          <p>NGOs and charities request the food.</p>
+      </div>
+      <div class="step">
+        
+          <h3>Step 3</h3>
+          <p>Pickup is arranged & food is transported.</p>
+      </div>
+      <div class="step">
+          
+          <h3>Step 4</h3>
+          <p>Food reaches people in need & reduces waste.</p>
+      </div>
+  </div>
+</div>
+
+<!-- 🔹 CSS Styling -->
+<style>
+  .section {
+      padding: 40px 20px;
+       
+      border-radius: 10px;
+      margin-bottom: 30px;
+      text-align: center;
+      color: black;
+  }
+
+  .steps {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+  }
+
+  .step {
+      width: 220px;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.005);
+      border-radius: 10px;
+      margin: 10px;
+      text-align: center;
+      transition: transform 0.3s ease, background 0.3s ease;
+  }
+
+  .step:hover {
+      transform: scale(1.05);
+      background: #06C167;
+  }
+
+  .step img {
+      width: 80px;
+      margin-bottom: 10px;
+  }
+
+  .step h3 {
+      font-size: 22px;
+      margin-bottom: 8px;
+      color: #06C167;
+  }
+
+  .step p {
+      font-size: 18px;
+      color: black;
+  }
+
+  @media (max-width: 768px) {
+      .title {
+          font-size: 30px;
+      }
+      .steps {
+          flex-direction: column;
+          align-items: center;
+      }
+      .step {
+          width: 100%;
+      }
+  }
+</style>
+
 
 
 <div class="map"  style="  text-align: center; padding-bottom: 50px;" >
-<p  style=" font-size:30px ;" > Location  </p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.2518547826976!2d78.14534951744383!3d9.912970000000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c5077610d357%3A0x69066b558478379a!2sThiagarajar%20College!5e0!3m2!1sen!2sin!4v1677633156837!5m2!1sen!2sin" width="777" height="473" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map"></iframe>
+<p  style=" font-size:30px ;" > Our Location  </p><br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5845191760545!2d77.6036007103006!3d12.934404087324909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15392f6ea2f9%3A0x851befe3b3f1d0b0!2sCentral%20Campus%2C%20Christ%20University!5e0!3m2!1sen!2sin!4v1738613264240!5m2!1sen!2sin" width="777" height="473" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map"></iframe>
      </div>
 
 
@@ -127,5 +214,41 @@
      <!-- <div class="overview"  style="  text-align: center; padding-bottom: 50px;" >
       <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=1400 height=800 src="https://edrawcloudpublicus.s3.amazonaws.com/viewer/self/3094230/share/2023-3-2/1677763924/main.svg" id="overview"></iframe>
      </div> -->
+     <footer class="footer">
+      <div class="footer-left col-md-4 col-sm-6">
+        <p class="about">
+          <span> About us</span>The basic concept of this project Replate is to collect the excess/leftover  food from donors such as hotels, restaurants, marriage halls , etc and distribute to  the  needy people .
+   </p>
+      
+      </div>
+      <div class="footer-center col-md-4 col-sm-6">
+        <div>
+          <p><span> Contact</span> </p>
+          
+        </div>
+        <div>
+      
+          <p> (+91) 9999738833</p>
+          
+        </div>
+        <div>
+          <!-- <i class="fa fa-envelope" style="font-size: 17px;
+          line-height: 38px; color:white;"></i> -->
+          <p><a href="#"> tanmaykarra@gmail.com</a></p>
+        </div>
+        <div class="sociallist">
+          <ul class="social">
+          <li><a href="https://www.linkedin.com/in/tanmay-karra/" target="_blank"><i class="fa fa-linkedin" style="font-size:50px;color: black;"></i></a></li>
+          <li><a href="https://web.whatsapp.com/"><i class="fa fa-whatsapp" style="font-size:50px;color: black;"></i></a></li>
+         </ul>
+        </div>
+      </div>
+      <div class="footer-right col-md-4 col-sm-6">
+        <h2><span>RePlate</span></h2>
+        <!-- <h2>Food donate</h2> -->
+        
+        <p class="name"> Replate &copy 2025</p>
+      </div>
+    </footer>
 </body>
 </html>

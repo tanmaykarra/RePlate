@@ -8,7 +8,7 @@
     <title>contact</title>
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="chatbot/chatbot.css">
+	<link rel="stylesheet" href="contact.css">
 	 
 
 </head>
@@ -16,7 +16,10 @@
 
 <body>
 	<header>
-        <div class="logo">Food <b style="color: #06C167;">Donate</b></div>
+    <div class="logo">
+      <img src="img\replate_logo.png" alt="RePlate Logo" style="height: 40px; vertical-align: middle; margin-right: 8px;">
+      <b style="color: #06C167;">RePlate</b>
+  </div>
         <div class="hamburger">
             <div class="line"></div>
             <div class="line"></div>
@@ -47,35 +50,30 @@
 	
    <!-- <h1 class="heading">Contact Us</h1>  -->
    <div class="contact-form"> 
-    <form action="feedback.php" method="post"> <label for="name">Name:</label> 
-     <input type="text" id="name" name="name">
-     <br> <label for="email">Email:</label> 
-     <input type="email" id="email" name="email">
-     <br> <label for="message">Message:</label> <textarea id="message" name="message"></textarea>
-     <br> 
-     <input type="submit" value="Send" name="send"> 
-    </form> 
+    <form action="feedback.php" method="post">
+      <label for="name">Name:</label> 
+      <input type="text" id="name" name="name" required>
+      <br> 
+      <label for="email">Email:</label> 
+      <input type="email" id="email" name="email" required>
+      <br> 
+      <label for="message">Message:</label> 
+      <textarea id="message" name="message" required></textarea>
+      <br> 
+      <input type="submit" value="Send" name="feedback"> 
+  </form>
+  
    </div> 
    <div class="contact-info" style="padding: 10px;"> 
-    <p>Email: fooddonate@gmail.com</p> 
-    <p>Phone: 555-555-5555</p> 
-    <p>Address: Thiagarajar College</p> 
+    <p>Email: tanmaykarra@gmail.com</p> 
+    <p>Phone: 9999738833</p> 
+    <p>Address: Christ University</p> 
    </div> 
  
-
-  <div class="chatbot" style="padding: 30px; background-color: rgba(151, 243, 199, 0.5);">
- <p style="font-size: 23px; text-align: center;">chat bot support <img src="bot-mini.png" alt=""height="20"></p>
-
 	
- <div id="container" class="container">
-    
-
-		<div id="chat" class="chat">
-			<div id="messages" class="messages"></div>
-			<input id="input" type="text" placeholder="Say something..." autocomplete="off" />
-		</div>
+ 
        
-	</div>
+
   <div class="help">
     <p style="font-size: 23px; text-align: center; padding:10px;">Help & FAQs?</p>
 
@@ -84,7 +82,6 @@
   <p>1)click on <a href="fooddonate.html">donate</a> in home page </p>
   <p>2)fill the details </p>
   <p>3)click on submit</p>
- <img src="img/mobile.jpg" alt="" width="100%">
 </div>
 
 <button class="accordion">How will my donation be used?</button>
@@ -97,30 +94,89 @@
   <p style="padding: 10px;">We appreciate your willingness to donate, but to ensure the safety of our clients we can't accept food that is near or past its expiration date. We recommend checking expiration dates before making a donation or contact us for further guidance</p>
   
 </div>
-  </div>
+
+<button class="accordion">Can I track my donation?</button>
+    <div class="panel">
+        <p style="padding: 10px;">Yes, once your donation is picked up, you can track its journey in the 'My Donations' section of your profile.</p>
+    </div>
+
+    <button class="accordion">How is the food transported?</button>
+    <div class="panel">
+        <p style="padding: 10px;">We collaborate with logistics partners and volunteers to arrange timely pickups and deliveries.</p>
+    </div>
+
+    <button class="accordion">Can individuals donate, or is it only for businesses?</button>
+    <div class="panel">
+        <p style="padding: 10px;">Both individuals and businesses can donate. However, bulk donations may require scheduling in advance.</p>
+    </div>
+
+    <button class="accordion">Is there any cost involved in donating food?</button>
+    <div class="panel">
+        <p style="padding: 10px;">No, donating food through RePlate is completely free. However, voluntary contributions for logistics are appreciated.</p>
+    </div>
+
+    <button class="accordion">What kind of food can I donate?</button>
+    <div class="panel">
+        <p style="padding: 10px;">You can donate fresh, non-perishable, and well-packaged cooked food. Please ensure food is hygienically stored.</p>
+    </div>
+
+
 
   </div>
  
+  <footer class="footer">
+    <div class="footer-left col-md-4 col-sm-6">
+      <p class="about">
+        <span> About us</span>The basic concept of this project Replate is to collect the excess/leftover  food from donors such as hotels, restaurants, marriage halls , etc and distribute to  the  needy people .
+ </p>
     
+    </div>
+    <div class="footer-center col-md-4 col-sm-6">
+      <div>
+        <p><span> Contact</span> </p>
+        
+      </div>
+      <div>
+    
+        <p> (+91) 9999738833</p>
+        
+      </div>
+      <div>
+        <!-- <i class="fa fa-envelope" style="font-size: 17px;
+        line-height: 38px; color:white;"></i> -->
+        <p><a href="#"> tanmaykarra@gmail.com</a></p>
+      </div>
+      <div class="sociallist">
+        <ul class="social">
+        <li><a href="https://www.linkedin.com/in/tanmay-karra/" target="_blank"><i class="fa fa-linkedin" style="font-size:50px;color: black;"></i></a></li>
+        <li><a href="https://web.whatsapp.com/"><i class="fa fa-whatsapp" style="font-size:50px;color: black;"></i></a></li>
+       </ul>
+      </div>
+    </div>
+    <div class="footer-right col-md-4 col-sm-6">
+      <h2><span>RePlate</span></h2>
+      <!-- <h2>Food donate</h2> -->
+      
+      <p class="name"> Replate &copy 2025</p>
+    </div>
+  </footer>
 </body>
-<script type="text/javascript" src="chatbot/chatbot.js" ></script>
-<script type="text/javascript" src="chatbot/constants.js" ></script> 
-<script type="text/javascript" src="chatbot/speech.js" ></script>
 <script>
     var acc = document.getElementsByClassName("accordion");
-    var i;
-    
-    for (i = 0; i < acc.length; i++) {  
-      acc[i].addEventListener("click", function() {
+
+for (var i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function () {
         this.classList.toggle("active");
         var panel = this.nextElementSibling;
-        if (panel.style.maxHeight) {
-          panel.style.maxHeight = null;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
         } else {
-          panel.style.maxHeight = panel.scrollHeight + "px";
-        } 
-      });
-    }
+            panel.style.display = "block";
+            panel.style.maxHeight = panel.scrollHeight + "px"; // Smooth animation fix
+        }
+    });
+}
+
     </script>
 
 </html>

@@ -64,7 +64,7 @@ if(isset($_POST['sign']))
     <div class="regform">
        
         <form action=" " method="post">
-            <p class="logo">Food <b style="color: #06C167;">Donate</b></p>
+            <p class="logo"><b style="color: #06C167;">Replate</b></p>
             
             <p id="heading">Create your account</p>
             
