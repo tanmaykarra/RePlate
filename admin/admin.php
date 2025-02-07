@@ -149,7 +149,7 @@ if ($_SESSION['name'] == '') {
                 $loc = $_SESSION['location'];
 
                 // Fetch recent donations for the admin's location
-                $sql = "SELECT * FROM food_donations WHERE location='$loc' ORDER BY date DESC";
+                $sql = "SELECT * FROM food_donations ORDER BY date DESC";
                 $result = mysqli_query($connection, $sql);
                 ?>
 
